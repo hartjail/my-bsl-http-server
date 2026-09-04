@@ -28,6 +28,7 @@ The server runs on port `8080` and handles three primary routing scenarios:
 4. Click **Install**.
 5. Open the extension details page in VS Code and follow the OS-specific installer steps provided in its documentation to install the core `bonezegei` / `bzg` interpreter binary into your system environment path.
 
+---
 
 ### 3. Installing the BSL Socket Library
 The HTTP server requires the official Bonezegei socket library (socket) to manage network bindings, incoming TCP connections, and data streams.
@@ -35,9 +36,9 @@ The HTTP server requires the official Bonezegei socket library (socket) to manag
 Using the BSL Package Manager (CLI)
 Execute the following command inside your project directory to download and install the socket library directly:
 
-'''Bash
+```bash
     bzg install socket
-'''
+```
 
 Verifying Socket Installation
 Ensure the socket library binary or script module is properly indexed in your system's BSL module path so the #import "socket" directive resolves without errors when running the script.
@@ -45,9 +46,9 @@ Ensure the socket library binary or script module is properly indexed in your sy
 Running the HTTP Server
 Launch the server script using the BSL interpreter:
 
-'''Bash
+```bash
 bonezegei src/http.bzg
-'''
+```
 
 Check your terminal output. When properly started, it will output:
 
@@ -57,7 +58,9 @@ Server running on http://localhost:8080/
 
 Keep the terminal running to maintain the live server connection.
 
-## Usage Instructions
+---
+
+## 4. Usage Instructions
 With the server actively running, open any modern web browser and test the following endpoints:
 
 Default Landing Page:
@@ -82,7 +85,9 @@ Terminal Logging:
 
 As you navigate between pages in your browser, check your running terminal window to monitor incoming socket request headers in real time.
 
-## Screenshots Section
+---
+
+## 5. Screenshots Section
 Screenshots are in the `documentation` folder.
  
 **/ route**
