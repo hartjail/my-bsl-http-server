@@ -47,7 +47,7 @@ Running the HTTP Server
 Launch the server script using the BSL interpreter:
 
 ```bash
-bonezegei src/http.bzg
+    bonezegei src/http.bzg
 ```
 
 Check your terminal output. When properly started, it will output:
@@ -63,27 +63,23 @@ Keep the terminal running to maintain the live server connection.
 ## 4. Usage Instructions
 With the server actively running, open any modern web browser and test the following endpoints:
 
-Default Landing Page:
+**Default Landing Page:**
 
 Navigate to http://localhost:8080/
 
 Response: Returns an HTTP/1.1 200 OK header and renders the main welcome page HTML body.
 
-About Page:
+**About Page:**
 
 Navigate to http://localhost:8080/about
 
 Response: Returns an HTTP/1.1 200 OK header and renders the project and developer information HTML body.
 
-404 Not Found Page:
+**404 Not Found Page:**
 
 Navigate to any unmapped path such as http://localhost:8080/anything, http://localhost:8080/home, or http://localhost:8080/user
 
 Response: Returns an HTTP/1.1 404 Not Found header and renders the custom error page HTML body.
-
-Terminal Logging:
-
-As you navigate between pages in your browser, check your running terminal window to monitor incoming socket request headers in real time.
 
 ---
 
