@@ -18,7 +18,6 @@ The server runs on port `8080` and handles three primary routing scenarios:
 * **Code Editor:** Visual Studio Code (recommended).
 * **Git:** Installed on your system to clone the repository.
 
----
 
 ### 2. Installing BSL (Bonezegei Scripting Language) Interpreter
 
@@ -28,7 +27,6 @@ The server runs on port `8080` and handles three primary routing scenarios:
 4. Click **Install**.
 5. Open the extension details page in VS Code and follow the OS-specific installer steps provided in its documentation to install the core `bonezegei` / `bzg` interpreter binary into your system environment path.
 
----
 
 ### 3. Installing the BSL Socket Library
 The HTTP server requires the official Bonezegei socket library (socket) to manage network bindings, incoming TCP connections, and data streams.
@@ -60,7 +58,7 @@ Keep the terminal running to maintain the live server connection.
 
 ---
 
-## 4. Usage Instructions
+## Usage Instructions
 With the server actively running, open any modern web browser and test the following endpoints:
 
 **Default Landing Page:**
@@ -83,7 +81,7 @@ Response: Returns an HTTP/1.1 404 Not Found header and renders the custom error 
 
 ---
 
-## 5. Screenshots Section
+## Screenshots Section
 Screenshots are in the `documentation` folder.
  
 **/ route**
